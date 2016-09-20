@@ -68,3 +68,24 @@ puts post4([3, 2, 4, 1])
 puts post4([4, 3, 4, 1])
 puts post4([4, 4, 4, 1])
 puts post4([3, 2, 1, 4])
+
+def fizzArray3(first, last)
+  array = []
+  count = first
+  if first < last
+    array.push(first)
+  end
+  array.each do
+    count += 1
+    if count < last
+      array.push(count)
+    end
+  end
+end
+
+print fizzArray3(3, 9)
+print fizzArray3(4, 9)
+print fizzArray3(8, 9)
+print fizzArray3(9, 9)
+print fizzArray3(2, 9)
+print fizzArray3(0, 9)
