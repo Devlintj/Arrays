@@ -29,3 +29,6 @@ end
 puts maxTriple([1,2,3])
 puts maxTriple([3,2,1])
 puts maxTriple([2,1,3])
+
+def makeMiddle(int)
+  
