@@ -28,3 +28,25 @@ puts conCat("time", "each")
 puts conCat("tim", "each")
 puts conCat("dime", "peach")
 puts conCat("crime", "eat")
+
+def seeColor(str)
+  newstr = str.strip
+  newstr = newstr.downcase
+  if newstr.start_with?("red")
+    return "red"
+  elsif newstr.start_with?("blue")
+    return "blue"
+  else
+    return ""
+  end
+end
+
+puts seeColor("redish")
+puts seeColor("blueish")
+puts seeColor("ishred")
+puts seeColor("ishblue")
+puts seeColor("   redish")
+puts seeColor("ReDish")
+puts seeColor("  BlUeish")
+puts seeColor("  blueish")
+puts seeColor("BluEish")
