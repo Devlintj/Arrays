@@ -54,3 +54,23 @@ print makeMiddle([1,2,3,4])
 print makeMiddle([1,2,3,4,5,6])
 print makeMiddle([1,2,3,4,5,6,7,8])
 print makeMiddle([1,2])
+
+def no23(int)
+  twothree = 0
+  int.each do |i|
+    if i == 2 || i == 3
+      twothree += 1
+    end
+  end
+
+  if twothree > 0
+    return false
+  else
+    return true
+  end
+end
+
+puts no23([3,4])
+puts no23([2,4])
+puts no23([1,3])
+puts no23([1,4])
