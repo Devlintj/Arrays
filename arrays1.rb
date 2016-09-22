@@ -1,3 +1,4 @@
+# reverse3
 def reverse3(int)
   newarray = []
   newarray.push(int[2])
@@ -12,6 +13,7 @@ puts reverse3([6, 1, 10])
 puts reverse3([5, 2, 10])
 puts reverse3([4, 2, 13])
 
+# maxTriple
 def maxTriple(int)
   num = 0
   int.each do |i|
@@ -30,6 +32,7 @@ puts maxTriple([1,2,3])
 puts maxTriple([3,2,1])
 puts maxTriple([2,1,3])
 
+#makeMiddle
 def makeMiddle(int)
   count = 0
   count2 = 1
@@ -55,6 +58,7 @@ print makeMiddle([1,2,3,4,5,6])
 print makeMiddle([1,2,3,4,5,6,7,8])
 print makeMiddle([1,2])
 
+#no23
 def no23(int)
   twothree = 0
   int.each do |i|

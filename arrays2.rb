@@ -1,3 +1,4 @@
+#haveThree
 def haveThree(int)
   three = 0
   int.each do |i|
@@ -18,6 +19,7 @@ puts haveThree([3, 1, 3, 1, 3])
 puts haveThree([3, 1, 3, 3, 3])
 puts haveThree([3, 3, 2, 1, 1])
 
+#lucky13
 def lucky13?(int)
   onethree = 0
   int.each do |i|
@@ -42,6 +44,7 @@ puts lucky13?([3, 1, 1, 3])
 puts lucky13?([2, 8, 9, 3, 4])
 puts lucky13?([5, 6, 7, 1, 2])
 
+#post4
 def post4(int)
   placeholder = 0
   newarray = []
@@ -69,6 +72,7 @@ puts post4([4, 3, 4, 1])
 puts post4([4, 4, 4, 1])
 puts post4([3, 2, 1, 4])
 
+#fizzArray3
 def fizzArray3(first, last)
   array = []
   count = first
