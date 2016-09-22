@@ -31,4 +31,26 @@ puts maxTriple([3,2,1])
 puts maxTriple([2,1,3])
 
 def makeMiddle(int)
-  
+  count = 0
+  count2 = 1
+  newarray = []
+  int.each do |i|
+    if i % 2 == 0
+      count += 1
+    end
+  end
+
+  int.each do |i|
+    if count2 == count || (count2 - 1) == count
+      newarray.push(i)
+    end
+      count2 += 1
+  end
+
+  print newarray
+end
+
+print makeMiddle([1,2,3,4])
+print makeMiddle([1,2,3,4,5,6])
+print makeMiddle([1,2,3,4,5,6,7,8])
+print makeMiddle([1,2])
